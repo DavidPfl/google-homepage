@@ -59,6 +59,7 @@ a{  font-family: arial;
     padding: 10px 5px 20px 5px;
     color:#202124;
     display:block;
+    
 }
 
 a:hover{
@@ -93,7 +94,24 @@ li.right{
 li.left{
     float:left;
 }
+footer ul {
+    list-style: none;
+    display: inline;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 0;
+    text-align: center;
+}
 
 li {
     margin: 0 5px;
+}
+.right-li{
+    text-align:right;
+
+}
+
 }
